@@ -5,7 +5,7 @@ import Cards from "./Components/Cards/Cards";
 import MyCart from "./Components/MyCart/MyCart";
 import { useState } from "react";
 import AddedItem from "./Components/AddedItem/AddedItem";
-import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [addedItemImg, setAddedItemImg] = useState("");
