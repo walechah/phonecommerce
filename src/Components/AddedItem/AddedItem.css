@@ -1,0 +1,52 @@
+.AI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px; /* Add margin for spacing from the top */
+}
+
+.first {
+  text-align: center; /* Center align text */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px; /* Space below the item details */
+}
+
+.second img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make image round */
+  margin-bottom: 10px; /* Space below the image */
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; /* Center align buttons */
+}
+
+.close-button,
+.continue-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #4CAF50; /* Green */
+  color: white;
+  margin: 0 10px; /* Add space between buttons */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.close-button:hover,
+.continue-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}

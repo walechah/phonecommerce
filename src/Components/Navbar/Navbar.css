@@ -1,0 +1,27 @@
+.Navbar {
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px; /* Reduce padding for a more compact look */
+  }
+  
+  .nav-link {
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .nav-button {
+    background-color: cyan;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px; /* Adjust button border radius */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .nav-button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add subtle shadow on hover */
+    transform: scale(1.05); /* Scale up the button slightly on hover */
+  }
+  
